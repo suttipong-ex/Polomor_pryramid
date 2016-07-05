@@ -17,5 +17,7 @@ public class Screen {
         Screen sc = new Screen();
         sc.print(new Pryramid());
         sc.print(new Triangle());
+        sc.print(new Triangle());
+        sc.print(new Triangle());
     }
 }
