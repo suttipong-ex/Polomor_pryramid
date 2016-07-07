@@ -11,7 +11,7 @@ package co.th.geniustree.co.th.geniustree.train;
  */
 public class Screen {
     public void print(Shape shape){
-       shape.Shape();
+       shape.shape();
     }
     public static void main(String[] args) {
         Screen sc = new Screen();
