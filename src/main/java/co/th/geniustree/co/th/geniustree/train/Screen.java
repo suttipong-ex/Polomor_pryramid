@@ -5,13 +5,16 @@
  */
 package co.th.geniustree.co.th.geniustree.train;
 
+import co.th.geniustree.co.th.geniustree.train.ex.implement.SquareImple;
+import co.th.geniustree.co.th.train.neng.implement.TriangleStars;
+
 /**
  *
  * @author suttipong
  */
 public class Screen {
     public void print(Shape shape){
-       shape.Shape();
+       shape.shape();
     }
     public static void main(String[] args) {
         Screen sc = new Screen();
@@ -19,5 +22,7 @@ public class Screen {
         sc.print(new Triangle());
         sc.print(new Triangle());
         sc.print(new Triangle());
+        sc.print(new Triangle());
+        sc.print(new SquareImple());
     }
 }

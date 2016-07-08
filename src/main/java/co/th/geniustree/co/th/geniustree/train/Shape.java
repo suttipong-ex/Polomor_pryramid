@@ -10,5 +10,5 @@ package co.th.geniustree.co.th.geniustree.train;
  * @author suttipong
  */
 public interface Shape {
-    public void Shape();
+    public void shape();
 }
