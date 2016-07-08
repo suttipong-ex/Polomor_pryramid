@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Pryramid implements Shape{
     @Override
-    public void Shape() {
+    public void shape() {
         Scanner sc = new Scanner(System.in);
         System.out.print("How many do you want : ");
         int row = sc.nextInt();
