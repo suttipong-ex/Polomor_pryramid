@@ -5,6 +5,8 @@
  */
 package co.th.geniustree.co.th.geniustree.train;
 
+import co.th.geniustree.co.th.train.neng.implement.TriangleStars;
+
 /**
  *
  * @author suttipong
@@ -17,5 +19,6 @@ public class Screen {
         Screen sc = new Screen();
         sc.print(new Pryramid());
         sc.print(new Triangle());
+        sc.print(new TriangleStars());
     }
 }
